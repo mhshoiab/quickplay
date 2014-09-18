@@ -1,0 +1,69 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.jst.j2ee.jca,1.1.400.v201005270700,"org.eclipse.jst.j2ee.jca",1411031673450
+started,bundle,org.eclipse.jst.jee.ejb,1.0.301.v201007070821,"org.eclipse.jst.jee.ejb",1411031673507
+started,bundle,org.eclipse.jst.jee.web,1.0.301.v201007070907,"org.eclipse.jst.jee.web",1411031673531
+started,bundle,org.eclipse.xsd,2.6.0.v20100914-1218,"org.eclipse.xsd",1411031673764
+started,bundle,org.eclipse.jst.jsf.facesconfig,1.2.1.v20100906,"org.eclipse.jst.jsf.facesconfig",1411031675083
+started,bundle,org.eclipse.wst.internet.cache,1.0.400.v201004280700,"org.eclipse.wst.internet.cache",1411031677809
+error,log,,,"Could not write metadata for '/'.",1411031954116
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032447715
+error,log,,,"Unhandled event loop exception",1411032455772
+activated,view,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.views.AllMarkersView",1411032459371
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1411032464926
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.202.v201004211732,"org.eclipse.wst.ws.service.policy.ui",1411032470265
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.204.v201011011834,"org.eclipse.wst.ws.service.policy",1411032470292
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1411032470380
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1411032470383
+started,bundle,org.eclipse.compare.core,3.5.101.R36x_v20100929-0800,"org.eclipse.compare.core",1411032470774
+started,bundle,org.eclipse.compare,3.5.101.R36x_v20100929-0800,"org.eclipse.compare",1411032470783
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032473306
+started,bundle,org.eclipse.wst.common.project.facet.ui,1.4.103.v201101271715,"org.eclipse.wst.common.project.facet.ui",1411032477757
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1411032477898
+error,log,,,"null",1411032495419
+error,log,,,"java.lang.RuntimeException: java.lang.NullPointerException",1411032495424
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032495514
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.properties",1411032495546
+started,bundle,org.eclipse.wst.web.ui,1.1.400.v201004141630,"org.eclipse.wst.web.ui",1411032500736
+started,bundle,org.eclipse.jst.common.project.facet.ui,1.4.102.v201008182136,"org.eclipse.jst.common.project.facet.ui",1411032501241
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032501474
+error,log,,,"Could not save master table to file 'C:\\Users\\user\\Documents\\GitHub\\quickplay\\.metadata\\.plugins\\org.eclipse.core.resources\\.safetable\\org.eclipse.core.resources'.",1411032509744
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032509919
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032510247
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032511874
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.101.r362_v20101117-0800,"org.eclipse.ltk.core.refactoring",1411032514539
+started,bundle,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring",1411032514544
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032514683
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032519533
+executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1411032519545
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.delete",1411032519545
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032522290
+started,bundle,org.eclipse.jst.server.tomcat.core,1.1.203.v20110201,"org.eclipse.jst.server.tomcat.core",1411032531618
+started,bundle,org.eclipse.jst.server.tomcat.ui,1.1.200.v20100418,"org.eclipse.jst.server.tomcat.ui",1411032531640
+started,bundle,org.eclipse.jpt.core,2.3.3.v201102172310,"org.eclipse.jpt.core",1411032549528
+error,log,,,"Could not save master table to file 'C:\\Users\\user\\Documents\\GitHub\\quickplay\\.metadata\\.plugins\\org.eclipse.core.resources\\.safetable\\org.eclipse.core.resources'.",1411032550708
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032550804
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032559691
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1411032562355
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032572742
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.properties",1411032572758
+activated,view,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.views.AllMarkersView",1411032578846
+started,bundle,org.eclipse.jdt.junit,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.junit",1411032579002
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1411032584731
+opened,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1411032597713
+activated,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1411032598164
+started,bundle,org.eclipse.core.variables,3.2.400.v20100505,"org.eclipse.core.variables",1411032598334
+activated,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1411032603144
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.refresh",1411032605299
+closed,editor,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui.CompilationUnitEditor",1411032605873
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032612759
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032651354
+closed,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1411032658604
+error,log,,,"Could not save master table to file 'C:\\Users\\user\\Documents\\GitHub\\quickplay\\.metadata\\.plugins\\org.eclipse.core.resources\\.safetable\\org.eclipse.core.resources.bak'.",1411032658937
+error,log,,,"Problems saving workspace",1411032660864
+error,log,,,"Problems occurred while trying to save the state of the workbench.",1411032660867
+stopped,bundle,org.eclipse.jst.j2ee.xdoclet.runtime,1.1.300.v201004280700,"org.eclipse.jst.j2ee.xdoclet.runtime",1411032661587
+stopped,bundle,org.eclipse.jst.j2ee.ejb.annotations.xdoclet,1.2.100.v201003112036,"org.eclipse.jst.j2ee.ejb.annotations.xdoclet",1411032661589
+stopped,bundle,org.eclipse.jst.server.generic.jboss,1.6.1.v200904151730,"org.eclipse.jst.server.generic.jboss",1411032661591
+stopped,bundle,org.eclipse.jst.server.generic.jonas,1.5.205.v200805140145,"org.eclipse.jst.server.generic.jonas",1411032661595
+stopped,bundle,org.eclipse.jst.server.generic.oc4j,1.5.206.v20090812,"org.eclipse.jst.server.generic.oc4j",1411032661597
+stopped,bundle,org.eclipse.jst.server.websphere.core,1.0.302.v20080620,"org.eclipse.jst.server.websphere.core",1411032661599

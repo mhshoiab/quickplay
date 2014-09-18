@@ -1,0 +1,86 @@
+!SESSION 2014-09-18 14:43:15.971 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data C:\Users\user\Documents\GitHub\quickplay -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2014-09-18 14:44:28.102
+!MESSAGE Taglib Index ZipException: C:/Users/user/Documents/GitHub/quickplay/spring3mvc/WebContent/WEB-INF/lib/slf4j-api-1.5.6.jar error in opening zip file
+
+!ENTRY org.eclipse.jdt.core 4 4 2014-09-18 14:44:28.892
+!MESSAGE Invalid ZIP archive: C:\Users\user\Documents\GitHub\quickplay\spring3mvc\WebContent\WEB-INF\lib\slf4j-api-1.5.6.jar
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2524)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2282)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2292)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1321)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1228)
+	at org.eclipse.jst.jsp.core.internal.taglib.TaglibHelper.isIterationTag(TaglibHelper.java:211)
+	at org.eclipse.jst.jsp.core.internal.taglib.TaglibHelper.getCustomTag(TaglibHelper.java:267)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.addStartTagVariable(JSPTranslator.java:957)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.addTaglibVariables(JSPTranslator.java:906)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translateXMLNode(JSPTranslator.java:1479)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translateRegionContainer(JSPTranslator.java:1352)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translate(JSPTranslator.java:1127)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslationAdapter.getJSPTranslation(JSPTranslationAdapter.java:153)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getJSPTranslation(JSPSearchDocument.java:120)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:159)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:445)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:154)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1310)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1308)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:214)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:144)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:158)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2518)
+	... 27 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2014-09-18 14:44:28.893
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:214)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:144)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:158)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2518)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2282)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2292)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1321)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1228)
+	at org.eclipse.jst.jsp.core.internal.taglib.TaglibHelper.isIterationTag(TaglibHelper.java:211)
+	at org.eclipse.jst.jsp.core.internal.taglib.TaglibHelper.getCustomTag(TaglibHelper.java:267)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.addStartTagVariable(JSPTranslator.java:957)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.addTaglibVariables(JSPTranslator.java:906)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translateXMLNode(JSPTranslator.java:1479)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translateRegionContainer(JSPTranslator.java:1352)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translate(JSPTranslator.java:1127)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslationAdapter.getJSPTranslation(JSPTranslationAdapter.java:153)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getJSPTranslation(JSPSearchDocument.java:120)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchDocument.getPath(JSPSearchDocument.java:159)
+	at org.eclipse.jst.jsp.core.internal.java.search.JavaSearchDocumentDelegate.<init>(JavaSearchDocumentDelegate.java:30)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.createSearchDocument(JSPSearchSupport.java:445)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPSearchSupport.addJspFile(JSPSearchSupport.java:278)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:154)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1310)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1308)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
